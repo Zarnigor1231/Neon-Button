@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-around;
+    background-color: #031628;
+}
+
+.neon-btn{
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+    transition: 0.2s;
+}
+
+.blue{
+    color: #4cc9f0;
+}
+.purple{
+    color: #f038ff;
+}
+.green{
+    color: #b9e769;
+}
+
+.neon-btn:hover{
+    color: #ffffff;
+}
+
+.blue:hover{
+   border: transparent;
+   background-color: #4cc9f0;
+   box-shadow: 10px 10px 100px 6px rgb(76,201,255,1);
+}
+.purple:hover{
+    border: transparent;
+    background-color: #f038ff;
+    box-shadow: 10px 10px 100px 6px rgb(204,56,255,1);
+ }
+ .green:hover{
+    border: transparent;
+    background-color: #b9e769;
+    box-shadow: 10px 10px 100px 6px rgb(185,231,105,1);
+ }
